@@ -28,7 +28,7 @@ export default function Home() {
   const handleLogout = async () => {
     const cognitoDomain = import.meta.env.VITE_COGNITO_DOMAIN as string;
     const clientId = import.meta.env.VITE_COGNITO_CLIENT_ID as string;
-    const logoutUri = import.meta.env.VITE_COGNITO_LOGOUT_URI as string;
+    const logoutUri = `${window.location.origin}/`;
 
     // 1) react-oidc-context remove local session
     await auth.removeUser();

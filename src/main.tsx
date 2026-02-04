@@ -7,10 +7,12 @@ import { AuthProvider } from "react-oidc-context";
 import "./index.css";
 import App from "./App.tsx";
 
+const redirectUri = `${window.location.origin}/auth/callback`;
+
 const cognitoAuthConfig = {
   authority: import.meta.env.VITE_COGNITO_ISSUER,
   client_id: import.meta.env.VITE_COGNITO_CLIENT_ID,
-  redirect_uri: import.meta.env.VITE_COGNITO_REDIRECT_URI,
+  redirect_uri: redirectUri,
   response_type: "code",
   scope: "openid email profile",
 };
