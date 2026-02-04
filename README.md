@@ -26,13 +26,14 @@ Health: https://takehomeproject-backend.onrender.com/health
 - AWS Cognito Hosted UI
 
 ## Environment Variables
-- `VITE_API_BASE_URL` = https://takehomeproject-backend.onrender.com
-- `VITE_MAPBOX_TOKEN` = pk.eyJ1IjoieWhqNzY2NiIsImEiOiJjbWw1aG40dWowMml2M2ZwdjV1bG82d2hxIn0.rkRvx4Qt1JCzpXsvF157vg
-
+- `VITE_API_BASE_URL` = Backend API base URL
+- `VITE_MAPBOX_TOKEN` = Mapbox public access token
 
 ## Local Development
+```bash
 npm install
 npm run dev
+```
 
 # React + TypeScript + Vite
 
