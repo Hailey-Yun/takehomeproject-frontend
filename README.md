@@ -30,7 +30,6 @@ Health: https://takehomeproject-backend.onrender.com/health
 - `VITE_MAPBOX_TOKEN` = (your Mapbox public token)
 
 ## Local Development
-```bash
 npm install
 npm run dev
 
