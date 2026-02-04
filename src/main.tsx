@@ -15,6 +15,9 @@ const cognitoAuthConfig = {
   redirect_uri: redirectUri,
   response_type: "code",
   scope: "openid email profile",
+  onSigninCallback: () => {
+    window.history.replaceState({}, document.title, window.location.pathname);
+  },
 };
 
 createRoot(document.getElementById("root")!).render(
