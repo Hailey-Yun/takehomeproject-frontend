@@ -27,7 +27,8 @@ Health: https://takehomeproject-backend.onrender.com/health
 
 ## Environment Variables
 - `VITE_API_BASE_URL` = https://takehomeproject-backend.onrender.com
-- `VITE_MAPBOX_TOKEN` = (your Mapbox public token)
+- `VITE_MAPBOX_TOKEN` = pk.eyJ1IjoieWhqNzY2NiIsImEiOiJjbWw1aG40dWowMml2M2ZwdjV1bG82d2hxIn0.rkRvx4Qt1JCzpXsvF157vg
+
 
 ## Local Development
 npm install
