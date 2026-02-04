@@ -1,3 +1,39 @@
+# Take Home Project – Frontend
+
+## Live Demo
+https://startling-raindrop-e9c0c1.netlify.app/
+
+## Backend API
+https://takehomeproject-backend.onrender.com  
+Health: https://takehomeproject-backend.onrender.com/health
+
+## Features (User Stories)
+- ST-01 Authentication (AWS Cognito Hosted UI)
+- ST-02 Guest access (immediate access without login)
+- ST-03 County restriction
+  - Guest: Dallas only
+  - Logged-in: All counties
+- ST-04 Filters + Save/Load
+  - Guest: localStorage
+  - Logged-in: backend persistence
+- ST-05 CSV Export
+  - reflects filters
+  - reflects guest vs logged-in county access
+
+## Tech Stack
+- React + TypeScript + Vite
+- Mapbox
+- AWS Cognito Hosted UI
+
+## Environment Variables
+- `VITE_API_BASE_URL` = https://takehomeproject-backend.onrender.com
+- `VITE_MAPBOX_TOKEN` = (your Mapbox public token)
+
+## Local Development
+```bash
+npm install
+npm run dev
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
